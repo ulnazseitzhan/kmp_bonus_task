@@ -94,3 +94,34 @@ If you want, I can also:
 - Add a project banner
 - Add badges (Java version, build, license)
 - Create a full GitHub-style documentation (wiki pages)
+
+##Sample Input/Output section:
+Sample Input 1 (Short String)
+
+Text: "abcabc"
+Pattern: "abc"
+
+Output:
+
+Pattern found at index 0
+Pattern found at index 3
+
+Sample Input 2 (Medium String)
+
+Text: "aaabaaabaaabaaa"
+Pattern: "aab"
+
+Output:
+
+Pattern found at index 1
+Pattern found at index 5
+Pattern found at index 9
+
+Sample Input 3 (Long String)
+
+Text: "a" repeated 100000 times + "b"
+Pattern: "ab"
+
+Output:
+
+Pattern found at index 100000
